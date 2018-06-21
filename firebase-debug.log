@@ -1,0 +1,41 @@
+[debug] [2018-06-21T20:45:10.575Z] ----------------------------------------------------------------------
+[debug] [2018-06-21T20:45:10.578Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-06-21T20:45:10.578Z] CLI Version:   3.18.6
+[debug] [2018-06-21T20:45:10.578Z] Platform:      darwin
+[debug] [2018-06-21T20:45:10.578Z] Node Version:  v8.1.2
+[debug] [2018-06-21T20:45:10.579Z] Time:          Thu Jun 21 2018 13:45:10 GMT-0700 (PDT)
+[debug] [2018-06-21T20:45:10.579Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-21T20:45:10.594Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-21T20:45:10.594Z] > authorizing via signed-in user
+[debug] [2018-06-21T20:45:10.596Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-21T20:45:10.597Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/BmfWHTV4L_QjyQNh7AXDiqvCOcUhjHNdEkxTgyRWCUw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jun 21 2018 13:45:10 GMT-0700 (PDT)
+[debug] [2018-06-21T20:45:11.002Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-21T20:45:11.014Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/careerrocket-f93ee  
+  
+ Thu Jun 21 2018 13:45:11 GMT-0700 (PDT)
+[debug] [2018-06-21T20:45:11.432Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-21T20:45:11.433Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/careerrocket-f93ee/tokens  
+  
+ Thu Jun 21 2018 13:45:11 GMT-0700 (PDT)
+[debug] [2018-06-21T20:45:11.837Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-21T20:45:11.839Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/careerrocket-f93ee  
+  
+ Thu Jun 21 2018 13:45:11 GMT-0700 (PDT)
+[debug] [2018-06-21T20:45:12.230Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/sahil/Documents/GitHub/careerrocket'...
+[info] 
+[debug] [2018-06-21T20:45:12.233Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/20227819319/clients/_:getWebAppConfig  
+  
+ Thu Jun 21 2018 13:45:12 GMT-0700 (PDT)
+[debug] [2018-06-21T20:45:12.886Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+

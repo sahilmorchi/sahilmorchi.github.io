@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="header">
+
+        <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+            <a class="navbar-brand" href="#">
+                <img class="resize" src="career-rocket-logo-full-white.png" alt="n/a" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a class="nav-link menu-item menu-item_contact" href="#">Contact</a>
+                    <!-- <SimpleContantWrapped/> REPLACE -->
+                    <a class="nav-link menu-item_notify menu-item" href="#notify">Notify when Launch</a>
+                    <a class="nav-link menu-item menu-item_contact" href="public/login.html">Sign In/Up</a>
+                </form>
+
+            </div>
+        </nav>
+
+        <h1 class="heading-primary">Effortless meetings, valuable memories.</h1>
+        <h3 class="heading-tertiary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, mollitia accusamus? Eum animi, voluptatem.</h3>
+
+        <div class="button_div">
+            <button class="btn-more" id="createModal">Find Mentors</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="heading-secondary">CareerRocket Features</h2>
+
+        <p class="features_definition">We love helping out and made these connections for long-term usability to enjoy your career and more.</p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://iconspace.co/wp-content/themes/sebo-iconspace/assets/img/landing/feature-new-2.svg" class="info_card_image" />
+                    <div class="text_card">
+                        Lifetime Updates
+                    </div>
+                    <div class="text_card_info">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae minus
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <img src="https://iconspace.co/wp-content/themes/sebo-iconspace/assets/img/landing/feature-new-3.svg" class="info_card_image" />
+                    <div class="text_card">
+                        Lifetime Updates
+                    </div>
+                    <div class="text_card_info">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae minus.
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <img src="https://iconspace.co/wp-content/themes/sebo-iconspace/assets/img/landing/feature-new-4.svg" class="info_card_image" />
+                    <div class="text_card">
+                        Lifetime Updates
+                    </div>
+                    <div class="text_card_info">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae minus.
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row secondRow">
+                <div class="col-4">
+                    <img src="https://iconspace.co/wp-content/themes/sebo-iconspace/assets/img/landing/feature-new-1.svg" class="info_card_image" />
+                    <div class="text_card">
+                        Lifetime Updates
+                    </div>
+                    <div class="text_card_info">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae minus.
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="https://iconspace.co/wp-content/themes/sebo-iconspace/assets/img/landing/feature-new-5.svg" class="info_card_image" />
+                    <div class="text_card">
+                        Lifetime Updates
+                    </div>
+                    <div class="text_card_info">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae minus.
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="https://iconspace.co/wp-content/themes/sebo-iconspace/assets/img/landing/feature-new-6.svg" class="info_card_image" />
+                    <div class="text_card">
+                        Lifetime Updates
+                    </div>
+                    <div class="text_card_info">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae minus.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="forms">
+
+
+        <h2 class="heading-secondary whitez" id="notify">Notify when Launch</h2>
+        <div class="form__group">
+            <input type="text" class="form__input" placeholder="Email" id="name" required/>
+            <label for="name" class="form__label">Email</label>
+        </div>
+
+        <div class="button_div2">
+            <button class="btn-more-2">Submit</button>
+        </div>
+    </section>
+
+    <div class="footer">
+        <a class="navbar-brand" href="#">
+            <img class="resize" src="career-rocket-logo-full-white.png" alt="n/a" />
+        </a>
+    </div>
+    <script src="js/libraries/jquery.min.js"></script>
+    <script src="js/libraries/jquery.min.js"></script>
+    <script src="js/components/smoothscroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
